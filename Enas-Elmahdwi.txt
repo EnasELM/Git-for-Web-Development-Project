@@ -1,0 +1,100 @@
+    link to finished codepen: https://codepen.io/ENAS_E/pen/WNOwQbd?editors=1100
+    
+    1. What is Semantic HTML? 
+     It is HTML that gives meaning to our markup.
+    2. What is HTML used for? 
+     HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.
+    3. What is an attribute and where do we put it? 
+     HTML attributes are special words used inside the opening tag to control the element's behaviour. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+     The H1 tag is an HTML heading that's most commonly used to mark up a web page title. Most websites use CSS to make the H1 stand out on the page compared to lesser headings like H2, H3, etc.
+     And only Your website should have one h1 tag.
+    5. Name two tags that have required attributes
+     img and a.
+    6. What do we put in the head of our HTML document? 
+     HTML <head> Tag. The <head> tag contains metadata (document title, character set, styles, links, scripts), specific information about the web page that is not displayed to the user.
+     Metadata provides browsers and search engines with technical information about the web page.
+    7. What is an id? 
+     The id attribute is a unique identifier which is used to specify the document.
+    8. What elements can I add an id to? 
+     the id attribute can be used on any HTML element
+    9. How many times can I use the same id on a page? 
+     The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+    10. What is a class? 
+      The class is an attribute which specifies one or more class names for an HTML element. 
+    11. What elements can I add a class to? 
+       The class attribute can be used on any HTML element.
+    12. How many times can I use the same class on a page? 
+      The class is an attribute which specifies one or more class names for an HTML element.
+    13. How do I get my link to open in a new tab?
+        just add a target="_blank" attribute to your links (anchor tags). 
+    14. What is the alt attribute in the image tag used for? 
+      ALT text is accessed by screen reader users to provide them with a text equivalent of images.
+    15. How do I reference an id?
+      write a hashtag (#) followed by the ID of the element.
+    16. What is the difference between a section and a div
+      <section> means that the content inside is grouped (i.e. relates to a single theme), and should appear as an entry in an outline of the page. <div> , 
+      on the other hand, does not convey any meaning, aside from any found in its class , lang and title attributes.
+    17. What is CSS used for? 
+      CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.
+    18. How to we select an element? Example - every h2 on the page
+        Elament's name for example h2 {
+           name of  attribute : value;
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id is used for single elements that appear on the page for only once (e.g. header, footer, menu),
+         whereas class is used for single or multiple elements that appear on the page for once or more than once (e.g. paragraphs, links, ..
+    20. How do we select classes in CSS?
+        class selector selects elements with a specific class attribute.
+         To select elements with a specific class, write a period (.) character, followed by the name of the class.
+    21. How do we select a p element with a single class of "human""?
+            a,p,.human{
+
+            }
+    22. What is a parent child selector? When would this be useful? 
+       Child Selector: Child Selector is used to match all the elements which are child of a specified element. The element > element selector selects those elements which are the children of specific parent. 
+       The operand on the left side of > is the parent and the operand on the right is the children element.
+    23. How do you select all links within a div with the class of sidebar?
+         .sidebar,a,div : link{
+
+         }
+    24. What is a pseudo selector?
+        CSS pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. A pseudo class is expressed by adding a colon (:) after a selector in CSS,
+         followed by a pseudo-class such as "hover", "focus", or "active", like this: a:hover { /* your style here */ }
+    25. What do we use the change the spacing between lines?
+      IN CSS==>Use the line-height property in CSS to do so. Browsers by default will create a certain amount of space between lines to ensure that the text is easily readable. For example, for 12-point type, a browser will place about 1 point of vertical space between lines.
+      IN HTML ==><br>,
+       
+    26. What do we use to change the spacing between letters?
+    default letter-spacing: normal; The spacing between the characters is normal. ...
+      letter-spacing: 2px; You can use pixel values. ...
+      letter-spacing: 0.1em; You can use em values: this allows the spacing to remain relative to the font-size.
+      in HTML ==> To create extra spaces before, after, or in-between your text, use the &nbsp; (non-breaking space) extended HTML character.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+     text-transform: Capitalize;
+     text-transform: lowercase;
+     text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+       div {
+           border: dotted 1px black;
+       }
+    29. How do I select everything on the page?
+    *{
+
+    } 
+    30. How do I write a comment in CSS?
+      place your plain text inside /* */ marks. 
+    31. How do I find out what file I am in, when I am using the command line? 
+       pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+       Ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+          rm filename,  with some systems, you won't be prompted before deleting the file. You could easily lose a lot of work.
+    34. Why should I use version control? 
+      Version control is important to keep track of changes — and keep every team member working off the latest version. 
+    35. How often should I commit to github?
+       commit whenever you finish a step , add or updata.
+    36. What is the command we would use to push our repo up to github? 
+         git push -u origin yourname 
+    37. Walk me through Lambda's git flow. 
